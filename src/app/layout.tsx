@@ -9,7 +9,7 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Stats-collector",
+  title: "stats_collector",
   description:
     "This is a test project that allows you to view the statistics of a real server",
 };
