@@ -67,3 +67,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+dialog::backdrop {
+  background-color: salmon;
+}

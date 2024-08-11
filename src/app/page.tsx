@@ -1,4 +1,4 @@
-import { MyChart, SearchInput, ServersTable } from "@/components/shared";
+import { SearchInput, ServersTable } from "@/components/shared";
 
 export default function Home() {
   return (
@@ -10,6 +10,10 @@ export default function Home() {
         <p className="m-2">Список узлов сети: 1 запись</p>
         <ServersTable />
       </div>
+      {/* <button onClick={() => console.log(window)}>click</button>
+      <button onClick={() => console.log((window as any).Telegram)}>
+        click Telegram
+      </button> */}
     </div>
   );
 }

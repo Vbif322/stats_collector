@@ -49,7 +49,7 @@ export function MyChart() {
           tickMargin={8}
           tickFormatter={(value) => value.slice(0, 3)}
         />
-        <YAxis tickLine={false} axisLine={false} tickMargin={8} tickCount={3} />
+        <YAxis tickLine={true} axisLine={false} tickMargin={8} tickCount={3} />
         <ChartTooltip
           cursor={false}
           content={<ChartTooltipContent indicator="line" />}
